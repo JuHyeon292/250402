@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: Gaegu, sans-serif;
+    font-size:3vw;
+}
+
+h1 {
+    background-color: #cafc55;
+    color: rgb(98, 124, 64);
+    font-size: 2em;
+}
+
+div {
+    /* margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px; */
+    margin: 10px;
+    padding: 10px;
+    border: double 5px gray;
+}
+
+div::before {
+    content: '😊';
+}
+
+/* div::after {
+    content: '😂';
+} */
+
+div:active {
+    background-color: rgba(152, 83, 255, 0.761);
+}
+
+#todolist, last_li {
+    background-color: beige;
+    font-family: Hi Melody, sans-serif;
+}
+
+.point3{
+    font-family: Gaegu, Hi Melody, sans-serif;
+}
+
+/* #last_li{
+    font-family: Gaegu, Hi Melody, sans-serif;
+    background-color: slateblue;
+    color: aliceblue;
+} */
+
+a {
+    color:brown ;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:hover {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+a:active {
+    
+}
+
+[target="_blank"]{
+    text-decoration:none;
+}
+
+
+div > ul {
+    font-style: italic;
+}
+
+div li {
+    color: red;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+a ~ span {
+    font-size: 0.5em;
+}
+
+button:hover {
+    font-weight: 900;
+}
+
+button:active {
+    background-color: rgb(17, 87, 87);
+    color: aliceblue;
+}
+
+input:focus{
+    color: red;
+}
+input:disabled{
+    display: none;
+}
+
+li:first-child{
+    font-size: 1.2em;
+}
+
+li:nth-child(2){
+    color:blue
+}
+
+li:last-child{
+    font-size: 1.7em;
+}
